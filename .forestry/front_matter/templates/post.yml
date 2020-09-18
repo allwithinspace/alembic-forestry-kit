@@ -30,6 +30,11 @@ fields:
   name: comments
   label: Comments
   description: Turn off comments (make sure to configure comments in _config.yml)
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
 pages:
 - _posts/2018-08-22-hello-world.md
 - _posts/2020-09-18-new-blog-post.md
