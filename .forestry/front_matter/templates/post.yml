@@ -2,15 +2,17 @@
 label: post
 hide_body: false
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: Layout
 - type: text
   name: title
   label: Title
   description: The title of the sermon
   config:
     required: true
-- type: file
-  name: feature_image
-  label: Feature image
 - type: textarea
   name: feature_text
   label: Feature text
@@ -18,6 +20,11 @@ fields:
     wysiwyg: true
     schema:
       format: markdown
+- name: feature_image
+  type: text
+  config:
+    required: false
+  label: Feature Image
 - type: tag_list
   name: categories
   label: Categories
@@ -30,11 +37,6 @@ fields:
   name: comments
   label: Comments
   description: Turn off comments (make sure to configure comments in _config.yml)
-- name: layout
-  type: text
-  config:
-    required: false
-  label: Layout
 pages:
 - _posts/2018-08-22-hello-world.md
 - _posts/2020-09-18-new-blog-post.md
