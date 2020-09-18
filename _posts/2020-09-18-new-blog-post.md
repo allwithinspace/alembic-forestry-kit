@@ -5,6 +5,7 @@ feature_text: This is a Blog Post
 categories: []
 aside: false
 comments: false
+layout: post
 
 ---
 ## Hello
