@@ -3,7 +3,7 @@ title: New Blog Post
 feature_image: ''
 feature_text: This is a Blog Post
 categories: []
-aside: true
+aside: false
 comments: false
 
 ---
